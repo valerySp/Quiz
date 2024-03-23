@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/dialogfon"
+    android:background="@drawable/prewviewbackground"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:scaleType="centerCrop">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/btnclose"
+            android:text="&#60;"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@drawable/but_strok"
+            android:layout_gravity="start"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:id="@+id/previewimg"
+            android:src="@drawable/prewviewimgone"
+            android:layout_weight="60"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:id="@+id/textdescription"
+            android:text="@string/levelone"
+            android:layout_weight="30"
+            android:textColor="@color/black60"
+            android:textSize="24dp"
+            android:layout_marginTop="10dp" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:id="@+id/btncontinue"
+            android:background="@drawable/but_strok"
+            android:layout_weight="10"
+            android:text="@string/textcontinue"
+            android:textColor="@color/black"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textAllCaps="true"
+            android:textSize="24sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+
+
+            />
+
+            
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
